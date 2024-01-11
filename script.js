@@ -33,5 +33,12 @@ var obj = {
     age: 26,
 }
     console.log(obj)
-    
+
+    function myfunction( a, b){
+        console.log(a+b)
+    }
+
+    myfunction( 25, 25 )
+
+
 
