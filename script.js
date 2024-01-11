@@ -18,3 +18,20 @@ var middlename = "sham" ;
 var lastname = " Dhambere" ;
 
 console.log( firstname+middlename+lastname)
+
+
+// Array
+var arr = [ 10, 20, "Ram", false ]
+console.log( arr)
+
+
+// object
+var obj = {
+    firstname: "Pratik ",
+    middlename: "Rajkumar",
+    surname: " Khardekar" ,
+    age: 26,
+}
+    console.log(obj)
+    
+
