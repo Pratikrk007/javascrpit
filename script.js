@@ -113,6 +113,50 @@ console.log(typeof(object));
 var a = 10;
 console.log(typeof(a));
 
+// ........
+
+var object1 = {
+ Person1 : {
+    firstname: "Ravi" ,
+    lastname : "shyam ",
+    phone : 6187683618  
+ },
+
+ Person2 : {
+    firstname: "pratik" ,
+    lastname : "khardekar ",
+    phone : 82786428  
+ },
+
+ Person3 : {
+    firstname: "Yash" ,
+    lastname : "potdar ",
+    phone : 763756799  
+ },
+}
+ console.log(object1.Person3,object1.Person2,object1.Person1);
+
+
+
+ //  ......
+ var studentinfo = {
+ firstname : "hgajgd",
+ lastname:" gajdgyua",
+ phonenumbers:[5134654173, 71783878147]
+ }
+ console.log(studentinfo.phonenumbers);
+
+
+//  let/const......
+
+let firstname = " ram ";
+{
+    var firstname =" yash ";
+}
+console.log(firstname);
+
+
+
 
 
 
