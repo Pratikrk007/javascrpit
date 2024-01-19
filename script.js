@@ -70,93 +70,102 @@ num /= 10;
 console.log(num);
 
 // By using Assignment Operator/ Comparision ( == , === , < , > , <= , >= )
-var d =  10;
+var d = 10;
 var c = 30;
-console.log( d === c);
+console.log(d === c);
 
-var d =  20;
+var d = 20;
 var c = " 20";
-console.log( d == c);
- 
-var c = 10;
-console.log( c < 10);
+console.log(d == c);
 
 var c = 10;
-console.log( c > 10);
+console.log(c < 10);
 
 var c = 10;
-console.log( c <= 10);
+console.log(c > 10);
 
 var c = 10;
-console.log( c >= 10);
+console.log(c <= 10);
+
+var c = 10;
+console.log(c >= 10);
 
 
 // By using logical Operator (  != , && , ||)
 
-var a = 10 ;
-console.log(a !=" 10");
+var a = 10;
+console.log(a != " 10");
 
-var b = 20 ;
- console.log( a == 10 &&  b == 10 );
+var b = 20;
+console.log(a == 10 && b == 10);
 
- var b = 20 ;
- console.log( a == 10 || b == 10 );
+var b = 20;
+console.log(a == 10 || b == 10);
 
 // use Type operator 
 var object = {
-     firstname: "Ram" ,
-     lastname : "sham"
+    firstname: "Ram",
+    lastname: "sham"
 }
 
-console.log(typeof(object));
+console.log(typeof (object));
 
 var a = 10;
-console.log(typeof(a));
+console.log(typeof (a));
 
 // ........
 
 var object1 = {
- Person1 : {
-    firstname: "Ravi" ,
-    lastname : "shyam ",
-    phone : 6187683618  
- },
+    Person1: {
+        firstname: "Ravi",
+        lastname: "shyam ",
+        phone: 6187683618
+    },
 
- Person2 : {
-    firstname: "pratik" ,
-    lastname : "khardekar ",
-    phone : 82786428  
- },
+    Person2: {
+        firstname: "pratik",
+        lastname: "khardekar ",
+        phone: 82786428
+    },
 
- Person3 : {
-    firstname: "Yash" ,
-    lastname : "potdar ",
-    phone : 763756799  
- },
+    Person3: {
+        firstname: "Yash",
+        lastname: "potdar ",
+        phone: 763756799
+    },
 }
- console.log(object1.Person3,object1.Person2,object1.Person1);
+console.log(object1.Person3, object1.Person2, object1.Person1);
 
 
 
- //  ......
- var studentinfo = {
- firstname : "hgajgd",
- lastname:" gajdgyua",
- phonenumbers:[5134654173, 71783878147]
- }
- console.log(studentinfo.phonenumbers);
+//  ......
+var studentinfo = {
+    firstname: "hgajgd",
+    lastname: " gajdgyua",
+    phonenumbers: [5134654173, 71783878147]
+}
+console.log(studentinfo.phonenumbers);
 
 
 //  let/const......
 
 let firstname = " ram ";
 {
-    var firstname =" yash ";
+    var firstname = " yash ";
 }
 console.log(firstname);
 
+//  using if else 
 
+let age1 = 18;
+let age2 = 17;
 
+if (age1 < age2) {
+    console.log("age2 is not voting age");
+}
+else {
+    console.log("age1 is voting age");
+}
 
 
 
