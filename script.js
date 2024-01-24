@@ -77,7 +77,7 @@
 // var d =  20;
 // var c = " 20";
 // console.log( d == c);
- 
+
 // var c = 10;
 // console.log( c < 10);
 
@@ -169,45 +169,76 @@
 
 // creating an array with datatype and loop
 
-var array = [ 10, 20 , 30, 40 ,50 , "ram", "sham", 60, 70,80,90, 100 ];
-console.log(
-    array[10],
-    array[20],
-    array[30],
-    array[40],
-    array[50],
-    array["ram"],
-    array["sham"],
-    array[60],
-    array[70],
-    array[80],
-    array[90],
-    array[100],
-);
+// var array = [ 10, 20 , 30, 40 ,50 , "ram", "sham", 60, 70,80,90, 100 ];
+// console.log(
+//     array[10],
+//     array[20],
+//     array[30],
+//     array[40],
+//     array[50],
+//     array["ram"],
+//     array["sham"],
+//     array[60],
+//     array[70],
+//     array[80],
+//     array[90],
+//     array[100],
+// );
 
-for(var  i = 0 ; i < 100; i++ ){
-    console.log(array[i]);
+// for(var  i = 0 ; i < 100; i++ ){
+//     console.log(array[i]);
+// }
+
+
+
+// var array = [ 10, 20 , 30, 40 ,50 , "ram", 60, 70, 80, 90, 100 ];
+// console.log(
+//     array[0],
+//     array[1],
+//     array[2],
+//     array[3],
+//     array[4],
+//     array[5],
+//     array[6],
+//     array[7],
+//     array[8],
+//     array[9],
+//     array[10]
+// );
+
+
+// // using while loop
+// var k =0;
+//  while (k<12) {
+//     console.log(k); k++;
+//  }
+
+// // using array.lenghth
+
+//  var array = [ 1 , 3 ,5 ,7, 8,"bvvbbv", 9, 7846, "gsdjcj", 78387]
+
+//  var k =0;
+//   while (k<array.length) {
+//      console.log(array[k]); k++;
+//   }
+
+// //  using do while loop
+//  var s= 0 ;
+//  do{
+//     console.log(s); s++;
+//  }
+// while (s<16) 
+
+// using for in loop 5 object
+let studentdata = {
+    firstname: "ram",
+    middlename: "sham",
+    surname: "yogi",
+    age: 35,
+    Location: "pune"
+};
+
+for (let keys in studentdata) {
+    console.log(keys);
 }
-
-
-
-var array = [ 10, 20 , 30, 40 ,50 , "ram", 60, 70, 80, 90, 100 ];
-console.log(
-    array[0],
-    array[1],
-    array[2],
-    array[3],
-    array[4],
-    array[5],
-    array[6],
-    array[7],
-    array[8],
-    array[9],
-    array[10]
-);
-
-
-
-
-
 
