@@ -229,16 +229,56 @@
 //  }
 // while (s<16) 
 
-// using for in loop 5 object
-let studentdata = {
-    firstname: "ram",
-    middlename: "sham",
-    surname: "yogi",
-    age: 35,
-    Location: "pune"
-};
+// // using for in loop 5 object
+// let studentdata = {
+//     firstname: "ram",
+//     middlename: "sham",
+//     surname: "yogi",
+//     age: 35,
+//     Location: "pune"
+// };
 
-for (let keys in studentdata) {
-    console.log(keys);
+// for (let keys in studentdata) {
+//     console.log(studentdata[keys]);
+// }
+
+
+
+// // BY using for off  loop 
+
+// var colour =["red" , "blue", "yellow"]
+// for ( let  a  of colour){
+//         console.log(a);
+// }
+
+
+
+// // using on string 
+//  let onename = "Atharva"
+
+//  for(  let  values of onename){
+//     console.log(values)
+//  }
+
+function click_function(){
+    var firstname = document.getElementById("firstname").value;
+    var surname = document.getElementById("surname").value;
+    var phonenumber = document.getElementById("phonenumber").value;
+    console.log(firstname,surname,phonenumber);
+
+    document.getElementById("firstname").value ="";
+    document.getElementById("surname").value ="";
+    document.getElementById("phonenumber").value ="";
 }
+
+
+
+
+
+
+
+
+
+
+
 
