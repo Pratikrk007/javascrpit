@@ -260,22 +260,28 @@
 //     console.log(values)
 //  }
 
-function click_function(){
-    var firstname = document.getElementById("firstname").value;
-    var surname = document.getElementById("surname").value;
-    var phonenumber = document.getElementById("phonenumber").value;
-    console.log(firstname,surname,phonenumber);
+// function click_function(){
+//     var firstname = document.getElementById("firstname").value;
+//     var surname = document.getElementById("surname").value;
+//     var phonenumber = document.getElementById("phonenumber").value;
+//     console.log(firstname,surname,phonenumber);
 
-    document.getElementById("firstname").value ="";
-    document.getElementById("surname").value ="";
-    document.getElementById("phonenumber").value ="";
+//     document.getElementById("firstname").value ="";
+//     document.getElementById("surname").value ="";
+//     document.getElementById("phonenumber").value ="";
+// }
+
+
+
+function change_function() {
+    var drop = document.getElementById("dropdown").value;
+    console.log(drop);    
 }
 
-
-
-
-
-
+function change() {
+    var input_box= document.getElementById("input_box").value;
+    console.log(input_box);
+}
 
 
 
