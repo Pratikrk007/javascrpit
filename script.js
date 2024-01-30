@@ -273,18 +273,38 @@
 
 
 
-function change_function() {
-    var drop = document.getElementById("dropdown").value;
-    console.log(drop);    
+// function change_function() {
+//     var drop = document.getElementById("dropdown").value;
+//     console.log(drop);    
+// }
+
+// function change() {
+//     var input_box= document.getElementById("Name_of_students").value;
+//     console.log(input_box);
+// }
+
+// using onmouseover 
+function mouse_over  (){
+    var img=document.getElementById("book_img")
+    img.style.height="150px"
+    img.style.width= "150px"
 }
 
-function change() {
-    var input_box= document.getElementById("input_box").value;
-    console.log(input_box);
+// / using onmouseover 
+function mouse_out  (){
+    var img=document.getElementById("book_img")
+    img.style.height="100px"
+    img.style.width= "100px"
 }
 
+// using onmouse up And down
 
+function down_mouse() {
+    document.getElementById ("paraupdown").style.color ="red ";
+}
 
-
+function up_mouse() {
+    document.getElementById ("paraupdown").style.color ="blue" ;
+}
 
 
