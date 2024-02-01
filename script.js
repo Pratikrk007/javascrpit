@@ -284,27 +284,77 @@
 // }
 
 // using onmouseover 
-function mouse_over  (){
-    var img=document.getElementById("book_img")
-    img.style.height="150px"
-    img.style.width= "150px"
+function mouse_over() {
+    var img = document.getElementById("book_img")
+    img.style.height = "150px"
+    img.style.width = "150px"
 }
 
 // / using onmouseover 
-function mouse_out  (){
-    var img=document.getElementById("book_img")
-    img.style.height="100px"
-    img.style.width= "100px"
+function mouse_out() {
+    var img = document.getElementById("book_img")
+    img.style.height = "100px"
+    img.style.width = "100px"
 }
 
 // using onmouse up And down
 
 function down_mouse() {
-    document.getElementById ("paraupdown").style.color ="red ";
+    document.getElementById("paraupdown").style.color = "red ";
 }
 
 function up_mouse() {
-    document.getElementById ("paraupdown").style.color ="blue" ;
+    document.getElementById("paraupdown").style.color = "blue";
+}
+
+function myFunction() {
+    alert("page reload");
+
 }
 
 
+
+var text = "advhjadvagdjgbsjdcbsjc";
+document.getElementById("demo").innerHTML = text.length;
+
+
+// <!-- show text  by using number postion  -->
+
+var text = "helllo world ";
+document.getElementById("demo").innerHTML = text.charAt(2);
+// Also you can use insted of charAt / at/text[];
+
+
+
+// using for findinng length of words or para
+
+// var text = "svchvhscjvbcs";
+// console.log(text.length);
+
+// using for finding the position of text or word into the para by charAT
+
+// var text= "ram and sham are best friends ";
+// console.log(text.charAt(10));
+
+
+// // using for check UFT Number by charCodeAT
+
+// var text= "ram and sham are best friends ";
+// console.log(text.charCodeAt(15));
+
+// using slice function (11 ,15)
+//  var text = " my name is jhon doe  "
+//  console.log(text.slice(11 ,15));
+
+//  // using slice function (-11 ,-15) 
+//  var text = " my name is jhon doe  "
+//  console.log(text.slice(-15 ,-11));
+
+//using toLowerCase function for text and para lower form
+// var text = " MY NAME IS JHON DOE  "
+// console.log(text.toLocaleLowerCase());
+
+
+//using toLowerCase function for text and para lower form
+var text = " my name is jhon doe  "
+console.log(text.toLocaleUpperCase());
