@@ -356,5 +356,29 @@ document.getElementById("demo").innerHTML = text.charAt(2);
 
 
 //using toLowerCase function for text and para lower form
-var text = " my name is jhon doe  "
-console.log(text.toLocaleUpperCase());
+// var text = " my name is jhon doe  "
+// console.log(text.toLocaleUpperCase());
+
+
+// using  1)indexof 
+// var text =  "hello it was a nice day but some work is pending anyway nice to meet you and nice to meet you rahul also "
+// console.log(text.indexOf("nice"," 17"));
+
+// using  3)search
+// var text =  "hello it was a nice day but some work is pending anyway Nice to meet you and nice to meet you rahul also "
+// text= text.match(/nice/g)
+// console.log(text.length);
+
+// using  4)match
+// var text =  "hello it was a nice day but some work is pending anyway Nice to meet you and nice to meet you rahul also "
+// text= text.match(/nice/gi)
+// console.log(text.length);
+
+// using  5)matchall
+// var text =  "hello it was a nice day but some work is pending anyway Nice to meet you and nice to meet you rahul also "
+// text= text.matchAll("nice")
+// console.log(Array.from(text));
+
+// using  6)includes
+// var text =  "hello it was a nice day but some work is pending anyway Nice to meet you and nice to meet you rahul also "
+// console.log(text.includes("is",40));
