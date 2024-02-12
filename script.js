@@ -1,5 +1,5 @@
 
-// //   Arithmetic operation by using Numbers 
+//  Arithmetic operation by using Numbers 
 
 // var firstnumber = 10;
 // var secondnumber = 20;
@@ -11,7 +11,7 @@
 // console.log(firstnumber % secondnumber)
 
 
-// // Concat  by using Names 
+// Concat  by using Names 
 
 // var firstname = " Ram ";
 // var middlename = "sham";
@@ -20,12 +20,12 @@
 // console.log(firstname + middlename + lastname)
 
 
-// // Array
+//  Array
 // var arr = [10, 20, "Ram", false]
 // console.log(arr)
 
 
-// // object
+//  object
 // var obj = {
 //     firstname: "Pratik ",
 //     middlename: "Rajkumar",
@@ -35,14 +35,14 @@
 // console.log(obj)
 
 
-// // Use function in js 
+// Use function in js 
 // function myfunction(a, b) {
 //     console.log(a + b)
 // }
 
 // myfunction(25, 25)
 
-// // By using Assignment Operator  ( = ,+= , -= , *= , /=)
+//  By using Assignment Operator  ( = ,+= , -= , *= , /=)
 // var name = "pratik";
 // var num = 20;
 // num = 10;
@@ -69,7 +69,7 @@
 // num /= 10;
 // console.log(num);
 
-// // By using Assignment Operator/ Comparision ( == , === , < , > , <= , >= )
+// By using Assignment Operator/ Comparision ( == , === , < , > , <= , >= )
 // var d =  10;
 // var c = 30;
 // console.log( d === c);
@@ -91,7 +91,7 @@
 // console.log( c >= 10);
 
 
-// // By using logical Operator (  != , && , ||)
+//  By using logical Operator (  != , && , ||)
 
 // var a = 10 ;
 // console.log(a !=" 10");
@@ -102,7 +102,7 @@
 //  var b = 20 ;
 //  console.log( a == 10 || b == 10 );
 
-// // use Type operator 
+//  use Type operator 
 // var object = {
 //      firstname: "Ram" ,
 //      lastname : "sham"
@@ -113,7 +113,7 @@
 // var a = 10;
 // console.log(typeof(a));
 
-// // ........
+//  ........
 
 // var object1 = {
 //  Person1 : {
@@ -138,7 +138,7 @@
 
 
 
-//  //  ......
+//    ......
 //  var studentinfo = {
 //  firstname : "hgajgd",
 //  lastname:" gajdgyua",
@@ -147,7 +147,7 @@
 //  console.log(studentinfo.phonenumbers);
 
 
-// //  let/const......
+// let/const......
 
 // let firstname = " ram ";
 // {
@@ -207,13 +207,13 @@
 // );
 
 
-// // using while loop
+//  using while loop
 // var k =0;
 //  while (k<12) {
 //     console.log(k); k++;
 //  }
 
-// // using array.lenghth
+//  using array.lenghth
 
 //  var array = [ 1 , 3 ,5 ,7, 8,"bvvbbv", 9, 7846, "gsdjcj", 78387]
 
@@ -222,14 +222,14 @@
 //      console.log(array[k]); k++;
 //   }
 
-// //  using do while loop
+//   using do while loop
 //  var s= 0 ;
 //  do{
 //     console.log(s); s++;
 //  }
 // while (s<16) 
 
-// // using for in loop 5 object
+//  using for in loop 5 object
 // let studentdata = {
 //     firstname: "ram",
 //     middlename: "sham",
@@ -244,7 +244,7 @@
 
 
 
-// // BY using for off  loop 
+// BY using for off  loop 
 
 // var colour =["red" , "blue", "yellow"]
 // for ( let  a  of colour){
@@ -253,7 +253,7 @@
 
 
 
-// // using on string 
+//  using on string 
 //  let onename = "Atharva"
 
 //  for(  let  values of onename){
@@ -283,50 +283,50 @@
 //     console.log(input_box);
 // }
 
-// using onmouseover 
-function mouse_over() {
-    var img = document.getElementById("book_img")
-    img.style.height = "150px"
-    img.style.width = "150px"
-}
+// using onmouseover
 
-// / using onmouseover 
-function mouse_out() {
-    var img = document.getElementById("book_img")
-    img.style.height = "100px"
-    img.style.width = "100px"
-}
+
+
+//  using for findinng length of words or para 
+// function mouse_over() {
+//     var img = document.getElementById("book_img")
+//     img.style.height = "150px"
+//     img.style.width = "150px"
+// }
+
+//  using onmouseover 
+// function mouse_out() {
+//     var img = document.getElementById("book_img")
+//     img.style.height = "100px"
+//     img.style.width = "100px"
+// }
 
 // using onmouse up And down
 
-function down_mouse() {
-    document.getElementById("paraupdown").style.color = "red ";
-}
+// function down_mouse() {
+//     document.getElementById("paraupdown").style.color = "red ";
+// }
 
-function up_mouse() {
-    document.getElementById("paraupdown").style.color = "blue";
-}
+// function up_mouse() {
+//     document.getElementById("paraupdown").style.color = "blue";
+// }
 
-function myFunction() {
-    alert("page reload");
+// function myFunction() {
+//     alert("page reload");
 
-}
-
-
-
-var text = "advhjadvagdjgbsjdcbsjc";
-document.getElementById("demo").innerHTML = text.length;
-
-
-// <!-- show text  by using number postion  -->
-
-var text = "helllo world ";
-document.getElementById("demo").innerHTML = text.charAt(2);
-// Also you can use insted of charAt / at/text[];
+// }
 
 
 
-// using for findinng length of words or para
+// var text = "advhjadvagdjgbsjdcbsjc";
+// document.getElementById("demo").innerHTML = text.length;
+
+
+//  <!-- show text  by using number postion  -->
+
+// var text = "helllo world ";
+// document.getElementById("demo").innerHTML = text.charAt(2);
+//  Also you can use insted of charAt / at/text[];
 
 // var text = "svchvhscjvbcs";
 // console.log(text.length);
@@ -337,7 +337,7 @@ document.getElementById("demo").innerHTML = text.charAt(2);
 // console.log(text.charAt(10));
 
 
-// // using for check UFT Number by charCodeAT
+//  using for check UFT Number by charCodeAT
 
 // var text= "ram and sham are best friends ";
 // console.log(text.charCodeAt(15));
@@ -346,7 +346,7 @@ document.getElementById("demo").innerHTML = text.charAt(2);
 //  var text = " my name is jhon doe  "
 //  console.log(text.slice(11 ,15));
 
-//  // using slice function (-11 ,-15) 
+//  using slice function (-11 ,-15) 
 //  var text = " my name is jhon doe  "
 //  console.log(text.slice(-15 ,-11));
 
@@ -382,3 +382,52 @@ document.getElementById("demo").innerHTML = text.charAt(2);
 // using  6)includes
 // var text =  "hello it was a nice day but some work is pending anyway Nice to meet you and nice to meet you rahul also "
 // console.log(text.includes("is",40));
+
+// using  7)startswith
+//  var text= "Hello world"
+//  console.log(text.startsWith("world",6));
+
+// using  8)endsswith
+//  var text= "Hello world ! its a classwork"
+//  console.log(text.endsWith("world",18));
+
+
+//  using numbers addition in js
+let num1 = 11.05;
+let num2= 12;
+console.log(num1+num2)
+
+//  Using Function On change 
+// function onchange() {
+    
+// var text = document.getElementById("fname").value;
+// document.getElementById("show").innerHTML=(`My name is ${text}`)}
+
+
+//  for showing type of function
+// num =1234567897873483;
+// console.log(num ==="1234567897873483");
+// console.log(typeof(num));
+
+// to check number true and false
+// let number = 20;
+// let number2= 20;
+// console.log(number===number2)
+
+// toString in number
+ var num =1234;
+ num.toString()
+ console.log(typeof (num));
+
+
+//  toExponential in number
+ var num = 12426567;
+ console.log(num.toExponential(8));
+
+ //to fixed in number
+ var  num = 94.609      ;
+ console.log(num.toFixed(6));
+
+//  toprecision in number
+var  num = 94.609      ;
+ console.log(num.toPrecision(5));
