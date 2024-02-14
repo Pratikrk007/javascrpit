@@ -414,20 +414,46 @@ console.log(num1+num2)
 // let number2= 20;
 // console.log(number===number2)
 
-// toString in number
- var num =1234;
- num.toString()
- console.log(typeof (num));
+// // toString in number
+//  var num =1234;
+//  num.toString()
+//  console.log(typeof (num));
 
 
-//  toExponential in number
- var num = 12426567;
- console.log(num.toExponential(8));
+// //  toExponential in number
+//  var num = 12426567;
+//  console.log(num.toExponential(8));
 
- //to fixed in number
- var  num = 94.609      ;
- console.log(num.toFixed(6));
+//  //to fixed in number
+//  var  num = 94.609      ;
+//  console.log(num.toFixed(6));
 
-//  toprecision in number
-var  num = 94.609      ;
- console.log(num.toPrecision(5));
+// //  toprecision in number
+// var  num = 94.609      ;
+//  console.log(num.toPrecision(5));
+
+// Array = replace the word and number 
+ var age  = [ 12 , 15 ,16 ,18]
+ age[3]= 25;
+ console.log(age);
+
+ var age  = [ 12 , 15 ,16 ,18]
+ age[3]= "Pratik";
+ console.log(age);      
+
+//  using (-) to know the last number
+var age  = [ 12 , 15 ,16 ,18]
+ console.log(age.length-1);
+
+ // using tostring for converting number to string 
+ var age  = [ 12 , 15 ,16 ,18]
+ console.log(age.toString());
+
+ // using typeof to know type
+ var age  = [ 12 , 15 ,16 ,18]
+ console.log(typeof(age));
+
+// looping through array
+var age  = [ 12 , 15 ,16 ,18]
+for (var i=0 ;i<age.length; i++){
+console.log(age[i]);}
