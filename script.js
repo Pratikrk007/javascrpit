@@ -433,27 +433,64 @@ console.log(num1+num2)
 //  console.log(num.toPrecision(5));
 
 // Array = replace the word and number 
- var age  = [ 12 , 15 ,16 ,18]
- age[3]= 25;
- console.log(age);
+//  var age  = [ 12 , 15 ,16 ,18]
+//  age[3]= 25;
+//  console.log(age);
 
- var age  = [ 12 , 15 ,16 ,18]
- age[3]= "Pratik";
- console.log(age);      
+//  var age  = [ 12 , 15 ,16 ,18]
+//  age[3]= "Pratik";
+//  console.log(age);      
 
 //  using (-) to know the last number
-var age  = [ 12 , 15 ,16 ,18]
- console.log(age.length-1);
+// var age  = [ 12 , 15 ,16 ,18]
+//  console.log(age.length-1);
 
  // using tostring for converting number to string 
- var age  = [ 12 , 15 ,16 ,18]
- console.log(age.toString());
+//  var age  = [ 12 , 15 ,16 ,18]
+//  console.log(age.toString());
 
  // using typeof to know type
- var age  = [ 12 , 15 ,16 ,18]
- console.log(typeof(age));
+//  var age  = [ 12 , 15 ,16 ,18]
+//  console.log(typeof(age));
 
 // looping through array
-var age  = [ 12 , 15 ,16 ,18]
-for (var i=0 ;i<age.length; i++){
-console.log(age[i]);}
+// var age  = [ 12 , 15 ,16 ,18]
+// for (var i=0 ;i<age.length; i++){
+// console.log(age[i]);}
+
+// 1) array.length
+ var fname =[ " ram ", "sham","shiva"]
+ console.log(fname.length);
+
+ //2) toString 
+ var  number = [1,2, 3, 4,5,6,7, 8, 9, 0]
+ console.log(number.toString());
+
+ //3) at
+ var fname =[ " ram ", "sham","shiva"]
+ console.log(suraname.at(3))
+ console.log(suraname[3]);
+
+ //array.join
+   var cars = [ "bmw","Audi", "scoda"]
+   console.log(cars.join(" # "))    
+
+   //array.push 
+   var cars = [ "bmw","Audi", "scoda"]
+   cars.push("volvo")
+   console.log(cars) 
+
+//array.pop
+   cars.pop(" ")
+   console.log(cars)
+   
+   // shift and unshift 
+
+   var surname =[ "bdjjd", "xhjssc ", "bjcbjwkcb"]
+   surname.shift()
+   console.log(surname);
+
+   // unshift
+   surname.unshift("bbbbbbb")
+   console.log(surname);
+
