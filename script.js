@@ -393,9 +393,9 @@
 
 
 //  using numbers addition in js
-let num1 = 11.05;
-let num2= 12;
-console.log(num1+num2)
+// let num1 = 11.05;
+// let num2= 12;
+// console.log(num1+num2)
 
 //  Using Function On change 
 // function onchange() {
@@ -459,38 +459,74 @@ console.log(num1+num2)
 // console.log(age[i]);}
 
 // 1) array.length
- var fname =[ " ram ", "sham","shiva"]
- console.log(fname.length);
+//  var fname =[ " ram ", "sham","shiva"]
+//  console.log(fname.length);
 
  //2) toString 
- var  number = [1,2, 3, 4,5,6,7, 8, 9, 0]
- console.log(number.toString());
+//  var  number = [1,2, 3, 4,5,6,7, 8, 9, 0]
+//  console.log(number.toString());
 
  //3) at
- var fname =[ " ram ", "sham","shiva"]
- console.log(suraname.at(3))
- console.log(suraname[3]);
+//  var suraname =[ " ram ", "sham","shiva"]
+//  console.log(suraname.at(2))
+//  console.log(suraname[2]);
 
  //array.join
-   var cars = [ "bmw","Audi", "scoda"]
-   console.log(cars.join(" # "))    
+   // var cars = [ "bmw","Audi", "scoda"]
+   // console.log(cars.join(" # "))    
 
    //array.push 
-   var cars = [ "bmw","Audi", "scoda"]
-   cars.push("volvo")
-   console.log(cars) 
+   // var cars = [ "bmw","Audi", "scoda"]
+   // cars.push("volvo")
+   // console.log(cars) 
 
 //array.pop
-   cars.pop(" ")
-   console.log(cars)
+   // cars.pop(" ")
+   // console.log(cars)
    
    // shift and unshift 
 
-   var surname =[ "bdjjd", "xhjssc ", "bjcbjwkcb"]
-   surname.shift()
-   console.log(surname);
+   // var surname =[ "bdjjd", "xhjssc ", "bjcbjwkcb"]
+   // surname.shift()
+   // console.log(surname);
 
    // unshift
-   surname.unshift("bbbbbbb")
-   console.log(surname);
+   // surname.unshift("bbbbbbb")
+   // console.log(surname);
 
+// Splice 
+//  var fruits = [ "apple" , "banana", "kiwi", "pineapple", "mango", "dragonfruit"]
+//  document.getElementById("code").innerHTML= fruits;
+
+//  fruits.splice(3, 0 , "Grapes")
+//  document.getElementById("code1").innerHTML = fruits;
+
+ // toSpliced  
+
+//  var fruits = [ "apple" , "banana", "kiwi", "pineapple", "mango", "dragonfruit"]
+//  document.getElementById("code").innerHTML= fruits;
+
+//  document.getElementById("code1").innerHTML = fruits.toSpliced(2 ,2, " grapes")
+
+
+ //sliced
+//  var fruits = [ "apple" , "banana", "kiwi", "pineapple", "mango", "dragonfruit"]
+//  document.getElementById("code").innerHTML= fruits;
+
+//  document.getElementById("code1").innerHTML =fruits.slice(3,6);
+
+
+//  Array Search Methods 
+
+// 1) indexof ()
+ var  fname =[ "abc ","hsj", "Ram", "bjsac", "nshs", "Ram"]
+ console.log(fname.indexOf("Ram")+1);
+
+ // 2) lastindexof()
+ var  fname =[ "abc ","hsj", "Ram", "bjsac","sgsh", "nshs", "Ram"]
+ console.log(fname.lastIndexOf("Ram"));
+
+ //inculdes ()
+ var  fname =[ "abc ","hsj", "Ram", "bjsac","sgsh", "nshs", "Ram"]
+ console.log(fname.includes("Ram"));
+   
