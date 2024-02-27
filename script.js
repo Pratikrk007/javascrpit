@@ -519,14 +519,41 @@
 //  Array Search Methods 
 
 // 1) indexof ()
- var  fname =[ "abc ","hsj", "Ram", "bjsac", "nshs", "Ram"]
- console.log(fname.indexOf("Ram")+1);
+//  var  fname =[ "abc ","hsj", "Ram", "bjsac", "nshs", "Ram"]
+//  console.log(fname.indexOf("Ram")+1);
 
  // 2) lastindexof()
- var  fname =[ "abc ","hsj", "Ram", "bjsac","sgsh", "nshs", "Ram"]
- console.log(fname.lastIndexOf("Ram"));
+//  var  fname =[ "abc ","hsj", "Ram", "bjsac","sgsh", "nshs", "Ram"]
+//  console.log(fname.lastIndexOf("Ram"));
 
- //inculdes ()
- var  fname =[ "abc ","hsj", "Ram", "bjsac","sgsh", "nshs", "Ram"]
- console.log(fname.includes("Ram"));
+ // 3)inculdes ()
+//  var  fname =[ "abc ","hsj", "Ram", "bjsac","sgsh", "nshs", "Ram"]
+//  console.log(fname.includes("Ram"));
    
+
+//  4) find ()
+ var number = [11 , 12 , 13 , 14 ,15 , 16 ,17, 18 ]
+ document.getElementById("code").innerHTML = number.find(myFunction);
+
+ function myFunction(value){
+   return value > 15
+ }
+
+//  findIndex ()
+
+var number = [11 , 12 , 13 , 14 ,15 , 16 ,17, 18 ]
+document.getElementById("code").innerHTML = number.findIndex(myFunction);
+
+function myFunction(value){
+   return value > 15
+}
+
+//5) findLast ()
+
+var number = [11 , 12 , 13 , 14 ,15 , 16 ,17, 18 ]
+document.getElementById("code").innerHTML = number.findLast(myFunction);
+
+function myFunction(value){
+   return value > 15
+}
+ 
