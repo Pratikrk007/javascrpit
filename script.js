@@ -532,28 +532,77 @@
    
 
 //  4) find ()
- var number = [11 , 12 , 13 , 14 ,15 , 16 ,17, 18 ]
- document.getElementById("code").innerHTML = number.find(myFunction);
+//  var number = [11 , 12 , 13 , 14 ,15 , 16 ,17, 18 ]
+//  document.getElementById("code").innerHTML = number.find(myFunction);
 
- function myFunction(value){
-   return value > 15
- }
+//  function myFunction(value){
+//    return value > 15
+//  }
 
 //  findIndex ()
 
-var number = [11 , 12 , 13 , 14 ,15 , 16 ,17, 18 ]
-document.getElementById("code").innerHTML = number.findIndex(myFunction);
+// var number = [11 , 12 , 13 , 14 ,15 , 16 ,17, 18 ]
+// document.getElementById("code").innerHTML = number.findIndex(myFunction);
 
-function myFunction(value){
-   return value > 15
-}
+// function myFunction(value){
+//    return value > 15
+// }
 
 //5) findLast ()
 
-var number = [11 , 12 , 13 , 14 ,15 , 16 ,17, 18 ]
-document.getElementById("code").innerHTML = number.findLast(myFunction);
+// var number = [11 , 12 , 13 , 14 ,15 , 16 ,17, 18 ]
+// document.getElementById("code").innerHTML = number.findLast(myFunction);
 
-function myFunction(value){
-   return value > 15
-}
+// function myFunction(value){
+//    return value > 15
+// }
+
+
+// Array Sorting :- 1) Alphabetical  2) Numerical 
+// 1) Alphabetical
+
+// 1) array.sort()
+
+// var character = [ "banana" , "pineapple" , "blueberry",  "mango" , "orange"  , "Apple"] 
+// document.getElementById("code").innerHTML = character 
+
+// character.sort()
+// document.getElementById("code1").innerHTML = character   
  
+// 2) array.reverse()
+
+// var character = [ "banana" , "pineapple" , "blueberry",  "mango" , "orange"  , "Apple"] 
+// document.getElementById("code").innerHTML = character 
+
+// character.reverse();
+// document.getElementById("code1").innerHTML = character   
+
+
+//2) Numerical , 
+
+// 1) Numeric sort 
+ 
+// var rollNo = [ 10 ,20 , 30 ,60 , 40 ,50, 21 ]
+// document.getElementById("code").innerHTML=  rollNo ; 
+
+// document.getElementById("code1").innerHTML= rollNo .sort(myFunction)
+
+// function myFunction(a,b){
+//    return a-b ;
+// }
+
+
+// Math.min 
+// var rollNo = [ 10 ,20 , 30 ,60 , 40 ,50, 21 ]
+//  console.log(Math.min.apply(null ,rollNo));
+
+//Math.max  
+// var rollNo = [ 10 ,20 , 30 ,60 , 40 ,50, 21 ]
+//  console.log(Math.max.apply(null ,rollNo));
+
+// Example of object
+var obj = ["Pratik" , "Ram" , "Sham" , "Yash" , "Satvik"]
+document.getElementById ("code") .innerHTML=  obj 
+
+obj.sort()
+document.getElementById("code1").innerHTML= obj
